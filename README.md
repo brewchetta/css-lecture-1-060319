@@ -1,5 +1,7 @@
 # CSS Fundamentals
 
+![alt giraffestagram](https://img.purch.com/h/1000/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAzNy8wMDIvb3JpZ2luYWwvZ2lyYWZmZS5qcGc=)
+
 ## Part One: The Key Principles of CSS
 
 ## Objectives
@@ -9,8 +11,8 @@
 - Differentiate between inline, internal, and external stylesheets
 - Demonstrate the anatomy of a declaration block
 - Understand how to use class, id, and element selectors, and selector order of importance
-- Demonstrate the use of the box model, floats, clear and positioning
-- Demonstrate the use of flex box, CSS grid in page layout
+- Demonstrate the use of the box model
+- Demonstrate the use of CSS grid in page layout
 - Introduce CSS Frameworks like Bootstrap and Semantic UI
 
 ## CSS Basics
