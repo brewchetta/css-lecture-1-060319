@@ -1,0 +1,104 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(yellow, white);
+  height: 100vh;
+}
+
+header {
+  font-size: 2em;
+  font-family: cursive;
+}
+
+button {
+  border: solid black 2px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: cursive;
+  background: rgba(0, 0, 0, 0);
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+button:active {
+  background-color: white;
+}
+
+.giraffe-grid-container {
+  display: grid;
+  grid-template:
+    "unimpressed unimpressed unkempt"
+    "jogger jogger unkempt"
+    "standing bebe bebe";
+  width: 80%;
+  height: 80vh;
+  margin-left: 10%;
+}
+
+.tall img {
+  height: 100%;
+}
+
+.wide img {
+  width: 100%;
+}
+
+.giraffe-pic {
+  overflow: hidden;
+  border: solid black 2px;
+}
+
+div {
+  border: solid black 2px;
+  overflow: hidden;
+}
+
+#unimpressed-giraffe {
+  grid-area: unimpressed;
+}
+
+#unimpressed-giraffe img {
+  width: 100%;
+  top: -30%;
+  position: relative;
+}
+
+#jogger-giraffe {
+  grid-area: jogger;
+}
+#jogger-giraffe img {
+  top: -20%;
+  width: 100%;
+  position: relative;
+}
+
+#unkempt-giraffe {
+  grid-area: unkempt;
+}
+
+#unkempt-giraffe img {
+  width: 100%;
+  height: 140%;
+}
+
+#bebe-giraffe {
+  grid-area: bebe;
+}
+
+#bebe-giraffe img {
+  width: 100%;
+  height: 200%;
+  top: -50%;
+  position: relative;
+}
+
+#standing-giraffe {
+  grid-area: standing;
+}
+#standing-giraffe img {
+  width: 100%;
+  position: relative;
+  top: -20%;
+}
